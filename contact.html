@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Saad Ghazi</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Saad Ghazi</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="#" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="contact-content">
+            <h1>Contact Me</h1>
+            <form action="submit-form.php" method="POST">
+                <input type="text" placeholder="Your Name" name="name" required>
+                <input type="email" placeholder="Your Email" name="email" required>
+                <textarea placeholder="Your Message" name="message" rows="6" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <p>&copy; 2025 Saad Ghazi. All rights reserved.</p>
+    </footer>
+</body>
+</html>

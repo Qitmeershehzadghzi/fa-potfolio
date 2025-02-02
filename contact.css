@@ -1,0 +1,123 @@
+.contact {
+    margin-top: 70px;
+    padding: 50px 30px;
+    background: #2a303c;
+}
+
+.contact-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #0ef;
+    background-color: #1f242d;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #0ef;
+    background-color: #333;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn {
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    color: #1f242d;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #1f242d;
+    color: #0ef;
+}
+footer {
+    background-color: #2a303c;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer .social-media a {
+    font-size: 24px;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    color: #0ef;
+}
+
+footer p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1f242d;
+    color: #fff;
+    line-height: 1.6;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+}
+
+.navbar a,
+.header a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0ef;
+}
