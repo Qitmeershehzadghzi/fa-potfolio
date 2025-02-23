@@ -159,4 +159,86 @@ footer p {
         width: 80%;
         margin-bottom: 20px;
     }
+
+    footer .social-media a {
+        margin: 0 10px;
+    }
+}
+:hover.bx bxl-javascript {
+    color: #0ef;
+}
+.skill {
+    text-align: center;
+    width: 22%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.skill i {
+    font-size: 50px;
+    color: #0ef;
+    transition: color 0.3s ease-in-out;
+}
+
+.skill:hover i {
+    color: #ffcc00;
+}
+
+.skill h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.skill:hover h3 {
+    color: #ffcc00;
+}
+.skills-container img {
+    width: 60px;
+    transition: transform 0.3s, filter 0.3s ease-in-out;
+}
+
+.skills-container img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px #0ef);
+}
+footer {
+    background-color: #121212;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    color: white;
+}
+
+footer .social-media a {
+    font-size: 28px;
+    margin: 0 15px;
+    color: darkblue;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+footer .social-media a:hover {
+    color: lightblue;
+    transform: scale(1.2);
+}
+
+footer p {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 20px;
+}
+.header {
+    position: relative;
+    z-index: 100;
 }
